@@ -1,0 +1,19 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "visual partner-ship code challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "MauroMontan",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.14.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "fs": "^0.0.1-security",
+    "jest": "^28.0.2"
+  }
+}
