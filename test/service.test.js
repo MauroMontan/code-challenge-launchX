@@ -2,23 +2,15 @@ import VisualPartnerService from '../src/service/visualpartner_service.js';
 
 describe('test suit for service', () => {
     test('1) get certificated users', () => {
-        const user = {
-            'id': '6264d5d89f1df827eb84bb23',
-            'name': 'Warren',
-            'email': 'Todd@visualpartnership.xyz',
-            'credits': 508,
-            'enrollments': [
-                'Visual Thinking Intermedio',
-                'Visual Thinking Avanzado'
-            ],
-            'previousCourses': 1,
-            'haveCertification': true
-        };
+        const email = 'Todd@visualpartnership.xyz';
+        const certificatedStudents = VisualPartnerService.getCerficatedStudentEmails;
 
+        expect(certificatedStudents[0]).toEqual(email);
+    });
 
-        const certificatedStudents = VisualPartnerService.getCerficatedStudents;
+    test('2) get users with credits higher than 500 ', () => {
 
-        expect(certificatedStudents[0]).toEqual(user);
-
+        const creditedStudents = VisualPartnerService.hasHigherCredits;
+        expect(creditedStudents[0].credits).toBe(508);
     });
 });

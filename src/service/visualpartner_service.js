@@ -9,9 +9,16 @@ class VisualPartnerService {
         return this.#students;
     }
 
-    static get getCerficatedStudents() {
+    static get getCerficatedStudentEmails() {
+        const certifacated = this.#students.filter((student) => student.haveCertification === true);
+        const emails = certifacated.map((student) => student.email);
+        return emails;
+    }
 
-        return this.#students.filter((student) => student.haveCertification);
+    static get hasHigherCredits() {
+        const credited = this.#students.filter((student) => student.credits > 500);
+
+        return credited;
     }
 }
 
