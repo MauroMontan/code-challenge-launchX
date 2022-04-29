@@ -54,16 +54,66 @@ if you want to test it on browser or postman here you have my endpoints ! :D.
 <details>
   <summary> get a list of all the visual partner-ship students </summary>
 
-> GET localhost:3000/students
+```
+GET localhost:3000/students
+```
 
-- status code: 200
+> status code: 200
+
+
+|name        | value  |
+|------------|--------|
+|X-Powered-By| Express|
+|Content-Type| application/json; charset=utf-8|
+
 
 </details>
 
 
-> GET localhost:3000/estudents/certificated/emails
+<details>
+  <summary> get a list of all the certificated visual partner-ship student email's </summary>
 
-> GET localhost:3000/estudents/credited
+```
+GET localhost:3000/estudents/certificated/emails
+```
+
+> status code: 200
+
+
+|name        | value  |
+|------------|--------|
+|X-Powered-By| Express|
+|Content-Type| application/json; charset=utf-8|
+
+</details>
+
+
+<details>
+  <summary> get a list of all the students that has credits higher than 500 </summary>
+
+```
+GET localhost:3000/estudents/credited
+```
+
+> status code: 200
+
+
+|name        | value  |
+|------------|--------|
+|X-Powered-By| Express|
+|Content-Type| application/json; charset=utf-8|
+</details>
+
+
+### schemas: 
+
+
+
+```
+
+
+```
+
 
 
 this is a [Innovaccion Virtual](https://www.instagram.com/innovaccionvirtual/) LaunchX backend exercise :).
