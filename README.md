@@ -51,7 +51,12 @@ endpoitns has been tested with [Insomnia](https://insomnia.rest/). you can open 
 
 if you want to test it on browser or postman here you have my endpoints ! :D.
 
-> GET localhost:3000/students
+<details>
+  <summary> get a list of all the visual partner-ship students </summary>
+  
+    > GET localhost:3000/students
+</details>
+
 
 > GET localhost:3000/estudents/certificated/emails
 
