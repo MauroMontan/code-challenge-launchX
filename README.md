@@ -105,15 +105,24 @@ GET localhost:3000/estudents/credited
 </details>
 
 
-### schemas: 
+## schemas: 
 
+### Student schema:
 
+> The **getAllStudents** and **getCreditedStudents** methodd from StudentController returnd an array of objects following this schema. 
 
 ```
-
+{
+    "id":string,
+	"name": string,
+	"email": string,
+	"credits": number,
+	"enrollments":Array<string>,
+	"previousCourses": number,
+	"haveCertification": boolean
+},
 
 ```
-
 
 
 this is a [Innovaccion Virtual](https://www.instagram.com/innovaccionvirtual/) LaunchX backend exercise :).
