@@ -1,7 +1,7 @@
 
 import FileReader from '../utils/reader.js';
 
-class VisualPartnerService {
+class EstudentService {
 
     static #students = FileReader.loadJson('visualpartners');
 
@@ -23,4 +23,4 @@ class VisualPartnerService {
 }
 
 
-export default VisualPartnerService;
+export default EstudentService;
