@@ -8,4 +8,10 @@ describe('test suit form StudentController', () => {
 
         expect.arrayContaining(students);
     });
+
+    test('2) get all students credited students', () => {
+        const students = StudentController.getCreditedStudents();
+
+        expect.arrayContaining(students);
+    });
 });

@@ -2,7 +2,7 @@
 # VISUAL PARTNER-SHIP CODE CHALLENGE
 
 
-> project started at 18:27 april 28 2022
+> project started at 18:27 april 28 2022 and finished at 22:02 april 28 2022
 
 #### Requirements:
 
@@ -15,8 +15,8 @@
 
 - [x] create a GitHub repository.
 - [x] add Github Actions.
-- [x] ? explain clearly my commits.
-- [ ] create a readme to detail dependencies, my components design, and detail my   api.
+- [x] explain clearly my commits.
+- [x] create a readme to detail dependencies, my components design, and detail my api.
 
 
 

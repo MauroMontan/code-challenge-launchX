@@ -1,4 +1,4 @@
-import StudentService from '../src/service/visualpartner_service.js';
+import StudentService from '../src/service/students_service.js';
 
 describe('test suit for service', () => {
     test('1) get certificated users', () => {
