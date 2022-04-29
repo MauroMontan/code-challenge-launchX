@@ -8,7 +8,7 @@ class StudentController {
 
     static certificatedStudentsByEmail = () => StudentService.getCerficatedStudentEmails;
 
-    static getCreditedStudents = () => StudentController.getCreditedStudents;
+    static getCreditedStudents = () => StudentService.hasHigherCredits;
 
 }
 

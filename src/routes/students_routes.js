@@ -11,7 +11,7 @@ router.get('/', (_, res) => {
 });
 
 
-router.get('/certicated/emails', (_, res) => {
+router.get('/certificated/emails', (_, res) => {
     res.json(StudentController.certificatedStudentsByEmail());
 });
 
