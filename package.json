@@ -1,10 +1,12 @@
 {
   "name": "challenge",
   "version": "1.0.0",
+  "type":"module",
   "description": "visual partner-ship code challenge",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "serve": "node ./src/app.js"
   },
   "author": "MauroMontan",
   "license": "ISC",

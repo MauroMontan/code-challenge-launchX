@@ -2,7 +2,9 @@ import * as fs from 'fs';
 
 class FileReader {
     static loadJson(filename) {
-        fs.readFileSync(`./data/${filename}.json`);
+        const data = fs.readFileSync(`./src/data/${filename}.json`);
+
+        return data;
     }
 
 }
