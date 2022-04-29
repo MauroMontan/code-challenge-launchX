@@ -20,6 +20,14 @@
 
 
 
+## Project dependencies:
+
+- [express js](https://expressjs.com/), fast and minimalist framework for creating REST APIS
+
+- [jest](https://jestjs.io/), javascript framework for testing.
+
+- [eslint](https://eslint.org/), linter for javascript, find problems and fix code style.
+
 ## for running this api locally follow the next steps.
 
 ### install project dependencies:
@@ -49,7 +57,7 @@ $ npm run dev
 
 endpoitns has been tested with [Insomnia](https://insomnia.rest/). you can open the insomnia request collection for this project by importing this file on insmonia app [here](https://github.com/MauroMontan/code-challenge-launchX/tree/main/insomnia-collection) .
 
-if you want to test it on browser or postman here you have my endpoints ! :D.
+**if you want to test it on browser or postman here you have my endpoints ! :D.**
 
 <details>
   <summary> get a list of all the visual partner-ship students </summary>
