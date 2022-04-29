@@ -47,36 +47,15 @@ $ npm run dev
 
 ### Explorer endpoint
 
-endpoitns has been tested with [Insomnia](https://insomnia.rest/). you can open the insomnia request collection for this project [here](https://github.com/MauroMontan/fizzbuzz-api-rest/tree/main/insomnia_collection)
+endpoitns has been tested with [Insomnia](https://insomnia.rest/). you can open the insomnia request collection for this project by importing this file on insmonia app [here](https://github.com/MauroMontan/code-challenge-launchX/tree/main/insomnia-collection) .
 
-missions availables:
+if you want to test it on browser or postman here you have my endpoints ! :D.
 
-- java
-- node
+> GET localhost:3000/students
 
-> GET localhost:3000/explorers
+> GET localhost:3000/estudents/certificated/emails
 
-> GET localhost:3000/explorers/{mission}
+> GET localhost:3000/estudents/credited
 
-> GET localhost:3000/explorers/amout/java
-
-> GET localhost:3000/explorers/usernames/{mission}
-
-> GET localhost:3000/explorers/fizzbuzz/{score}
-
-
-### Explorer model 
-
-``` javascript
-
-{
-  "name" : string,
-  "githubUsername" : string,
-  "score" : number,
-  "mission" : strng,
-  "stacks" : Array<string>
-}
-
-```
 
 this is a [Innovaccion Virtual](https://www.instagram.com/innovaccionvirtual/) LaunchX backend exercise :).
